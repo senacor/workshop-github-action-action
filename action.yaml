@@ -1,0 +1,12 @@
+name: Greet and randomize
+description: "Greet someone and create a random number as output"
+inputs:
+  who-to-greet:
+    description: "Who to greet"
+    required: true
+outputs:
+  random-number:
+    description: "Random generated number"
+runs:
+  using: "node20"
+  main: "dist/index.js"
